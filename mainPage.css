@@ -6,8 +6,6 @@ body{
 .topnav {
     overflow: hidden;
   }
-  
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -16,10 +14,21 @@ body{
     text-decoration: none;
     font-size: 20px;
   }
-  
-  /* Change the color of links on hover */
   .topnav a:hover {
     color: firebrick;
     transition: 1s;
+  }
+
+  #btnTest{
+      width: 100px;
+      height: 50px;
+      background-color: green;
+      border: white solid 1px;
+      color: white;
+  }
+  #btnTest:hover{
+      cursor: pointer;
+      opacity: 0.8;
+      transition: 1.5s;
   }
   
