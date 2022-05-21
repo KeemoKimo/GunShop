@@ -12,11 +12,22 @@
             <a href="#contact">Ammunitions</a>
             <a href="#myAcc"> 
             <div style="margin-left: 1250px;">
-                <button id="btnTest" onclick="popUpFunc()">
+                <button id="btnTest">
                     My Account
                 </button>
             </div>
         </a>
     </div>
-</body>
+
+        <div>
+          <label for="theNumber" style="color: White;">Enter your name: </label>
+          <input type="text" id="theName" required autofocus />
+          <button onclick="clearTxt()" style="background-color: Red; color: white;" id="clearBtn">Clear</button>
+        </div>
+        <div style="margin-top: 20px;">
+          <button onclick="saveData()" id="sendBtn">Send</button>
+        </div>
+  
+
+    </body>
 </html>

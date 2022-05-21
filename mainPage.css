@@ -35,3 +35,14 @@ body{
       color: firebrick;
   }
   
+  #sendBtn:hover{
+    cursor: pointer;
+    transition: 1s;
+    opacity: 0.8;
+  }
+
+  #clearBtn:hover{
+    cursor: pointer;
+    transition: 1s;
+    opacity: 0.8;
+  }
