@@ -5,6 +5,7 @@ body{
 
 .topnav {
     overflow: hidden;
+    background-color: transparent;
   }
   .topnav a {
     float: left;
@@ -20,15 +21,17 @@ body{
   }
 
   #btnTest{
-      width: 100px;
-      height: 50px;
-      background-color: green;
-      border: white solid 1px;
+      background-color: transparent;
+      border: none;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
       color: white;
+      padding: 0px;
   }
   #btnTest:hover{
       cursor: pointer;
       opacity: 0.8;
       transition: 1.5s;
+      color: firebrick;
   }
   
